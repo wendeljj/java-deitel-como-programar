@@ -1,0 +1,15 @@
+Inicialize a variavel quilometros somados como zero
+Inicialize a variavel gasolina somada como zero
+
+Solicite ao usuario que insera os quilometros dirigidos
+Solicite ao usuario que insira os litros de gasolina consumida
+
+Enquanto sentinela nao for inserido em quilometros dirigidos
+    Enquanto sentinela nao for inserido em gasolina consumida
+        Configure consumo como a divisao de quilometros dirigidos por litros de gasolina consumidos
+        Configure quilometros somados como a soma de quilometros somados somado à quilometros dirigidos
+        Configure gasolina somada como a soma de gasolina somada somado à gasolina consumida
+        Exibir consumo
+        Exibir quilometros somados e gasolina somada
+
+

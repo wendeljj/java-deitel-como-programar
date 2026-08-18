@@ -1,0 +1,30 @@
+Inicialize total de vendas como zero
+Inicialize entrada de itens vendidos como zero
+Inicialize salário semanal fixo como 200.0
+Inicialize item 1 como 239.99
+Inicialize item 2 como 129.75
+Inicialize item 3 como 99.95
+Inicialize item 4 como 350.89
+
+Enquanto a entrada de itens vendidos for diferente de -1 faça
+    Solicite ao usuário a entrada de itens vendidos
+    Se a entrada de itens vendidos for diferente de -1 faça
+        Se a entrada de itens vendidos for igual a 1 faça
+            Define total de vendas somada com item 1
+            Imprime "Item 1 inserido com sucesso"
+        Senão se a entrada de itens vendidos for igual a 2 faça
+            Define total de vendas somada com item 2
+            Imprime "Item 2 inserido com sucesso"
+        Senão se a entrada de itens vendidos for igual a 3 faça
+                Define total de vendas somada com item 3
+                Imprime "Item 3 inserido com sucesso"
+        Senão se a entrada de itens vendidos for igual a 4 faça
+                Define total de vendas somada com item 4
+                Imprime "Item 4 inserido com sucesso"
+        Senão faça
+                Imprime "Não há este item na lista"
+    Senão faça
+        Imprime "Finalizado com sucesso"
+
+Define salario final como salário semanal fixo somado à 9 porcento de total de vendas
+Exibe salario final

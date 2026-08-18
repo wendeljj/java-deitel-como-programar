@@ -1,0 +1,14 @@
+Inicialize contador como 0
+Inicialize maior numero como 0
+Inicialize segundo maior numero como 0
+
+Enquanto contador for menor que 10 faça
+    Solicite que o usuário insira um numero inteiro
+    Se o contador for igual a 0 faça
+        Configure maior numero como o numero inteiro
+    Se o numero inteiro for maior que maior numero faça
+        Configure segundo maior numero como o maior numero
+        Configure maior numero como o numero inteiro
+    Incremente 1 à variável contador
+
+Imprime o maior numero

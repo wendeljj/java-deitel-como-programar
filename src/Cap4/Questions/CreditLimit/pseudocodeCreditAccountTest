@@ -1,0 +1,14 @@
+Inicialize a variavel limite de crédito autorizado como zero
+
+Solicite ao usuário o número da conta
+Solicite ao usuário o saldo no inicio do mês
+Solicite ao usuário o total de itens cobrados no mês
+Solicite ao usuário o total de créditos aplicados no mês
+
+Configure o objeto da classe CreditAccount com os dados inseridos pelo usuário
+
+Configure saldo no fim do mês como saldo no inicio do mês + itens cobrados no mês - créditos aplicados no mês
+Exibir o saldo no fim do mês
+
+Se o saldo no fim do mês exceder o limite de crédito autorizado faça
+    Exibir a mensagem Limite de crédito excedido

@@ -1,0 +1,7 @@
+Inicialize n como 1
+
+Imprima N   10*N    100*N   1000*N
+
+enquanto n for menor ou igual a 5 faça
+    Imprima (1*n*1)     (1*n*10)    (1*n*100)   (1*n*1000)
+    Incremente 1 a váriavel n

@@ -1,0 +1,17 @@
+Define contador de salario como 1
+
+Enquanto contador de salario for menor ou igual a 3 faça
+    Define salario bruto do funcionario como zero
+    Solicite ao usuário que insira o salario por hora do funcionario
+    Solicite ao usuário que insira as horas trabalhadas pelo funcionario
+
+    Se as horas trabalhadas pelo funcionario for maior que 40 faça
+        Define horas extras trabalhadas pelo funcionario como horas trabalhadas pelo funcionario menos 40
+        Define salario bonus do funcionario como horas extras multiplicado por salario por hora multiplicado por 1,5
+        Define salario normal do funcionario como salario por hora multiplicado por 40
+        Configure salario bruto do funcionario como o salario normal do funcionario somado com o salario bonus do funcionario
+    Senão faça
+        Configure salario bruto do funcionario como salario por hora multiplicado por horas trabalhadas
+
+    Imprime salario bruto do funcionario
+    Incrementa 1 ao valor de contador de salario
